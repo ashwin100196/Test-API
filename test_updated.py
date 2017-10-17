@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul  4 14:37:57 2017
+Created on Tue Oct  11 14:37:57 2017
 
-@author: IN0120 | Sanat Dutta
+@author: Ashwin
 """
 
 """
@@ -201,4 +201,4 @@ class poulate_location:
 print("Server Started at:")
 
 if __name__ == "__main__":
-    app.run()
+    app.run(app.run(host='0.0.0.0', port=5000))
